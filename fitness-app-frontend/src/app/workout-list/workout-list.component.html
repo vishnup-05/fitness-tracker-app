@@ -1,0 +1,29 @@
+<div class="workout-list-container">
+  <h2>My Workouts</h2>
+
+  <div class="workout-stats">
+    <p>Total Workouts: {{ totalWorkouts }}</p>
+    <p>Total Duration: {{ totalDuration }} minutes</p>
+    <p>Average Duration: {{ averageDuration | number:'1.0-2' }} minutes</p>
+  </div>
+
+  <div *ngIf="workouts.length === 0; else workoutList">
+    <p>No workouts added yet. <a routerLink="/add-workout">Add your first workout!</a></p>
+  </div>
+  <ng-template #workoutList>
+    <ul class="workout-list">
+      <li *ngFor="let workout of workouts" class="workout-item">
+        <div class="workout-details">
+          <h3>{{ workout.exercise }}</h3>
+          <p>Sets: {{ workout.sets }}</p>
+          <p>Reps: {{ workout.reps }}</p>
+          <p>Duration: {{ workout.duration }} minutes</p>
+        </div>
+        <div class="workout-actions">
+          <button class="edit-button" (click)="editWorkout(workout)">Edit</button>
+          <button class="delete-button" (click)="deleteWorkout(workout.id)">Delete</button>
+        </div>
+      </li>
+    </ul>
+  </ng-template>
+</div>

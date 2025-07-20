@@ -1,0 +1,16 @@
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\config\SecurityConfig.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\config\WebConfig.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\controller\UserController.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\controller\WorkoutController.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\FitnessAppApplication.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\model\LoginRequest.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\model\LoginResponse.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\model\User.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\model\Workout.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\repository\UserRepository.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\repository\WorkoutRepository.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\security\CustomUserDetailsService.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\security\JwtRequestFilter.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\security\JwtUtil.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\service\UserService.java
+D:\Projects\GeminiCLI_PR\fitness-app-backend\src\main\java\com\example\fitnessapp\service\WorkoutService.java
