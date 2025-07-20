@@ -1,0 +1,19 @@
+<nav class="navbar">
+  <a routerLink="/workouts" class="navbar-brand">Fitness App</a>
+  <div class="navbar-links">
+    <ng-container *ngIf="authService.isAuthenticated$ | async; else loggedOut">
+      <a routerLink="/workouts" routerLinkActive="active">Workouts</a>
+      <a routerLink="/add-workout" routerLinkActive="active">Add Workout</a>
+      <a routerLink="/profile" routerLinkActive="active">Profile</a>
+      <button (click)="logout()">Logout</button>
+    </ng-container>
+    <ng-template #loggedOut>
+      <a routerLink="/login" routerLinkActive="active">Login</a>
+      <a routerLink="/register" routerLinkActive="active">Register</a>
+    </ng-template>
+  </div>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

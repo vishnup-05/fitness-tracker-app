@@ -1,0 +1,7 @@
+<form [formGroup]="workoutForm" (ngSubmit)="onSubmit()">
+  <input formControlName="exercise" placeholder="Exercise">
+  <input formControlName="sets" placeholder="Sets" type="number">
+  <input formControlName="reps" placeholder="Reps" type="number">
+  <input formControlName="duration" placeholder="Duration (minutes)" type="number">
+  <button type="submit" [disabled]="!workoutForm.valid">Add Workout</button>
+</form>
